@@ -1,0 +1,112 @@
+body {
+    background-color: #EEF4DF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #7d7d73;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+h1, h2, h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #7d7d7d;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+
+h1 {
+    background-color: #DD5555;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 22px;
+    width: 140;
+    margin: 10 auto;
+}
+
+h2{
+  font-size: 18px;
+  font-weight: 300;
+}
+
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover{
+  color: red;
+}
+
+p{
+  text-align: justify;
+}
+
+table {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+.header_img{
+  border: 10px dashed mediumorchid;
+  border-radius: 50%;
+  width: 150px;
+}
+
+.favorite-movie{
+  width: 200px;
+  height: 250px;
+}
+
+.container{
+  width: 700px;   /* This sets the width */
+  margin: 0 auto;
+}
+.card{
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.text-center{
+  text-align: center;
+}
+.list-inline  li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline{
+  padding-left: 0;
+}
+.list-inline li i {
+  font-size: 30px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
